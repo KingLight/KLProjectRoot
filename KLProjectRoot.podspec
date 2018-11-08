@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/KingLight/KLProjectRoot.git", :tag => "#{s.version}" }
 
-  s.source_files  = "KLProjectRoot/KLProjectRoot/**/*.{h,m}"
+  s.source_files  = "KLProjectRoot/KLProjectRoot"
 
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true
