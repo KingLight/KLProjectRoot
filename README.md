@@ -51,13 +51,14 @@
          - (void)addChildViewController:(UIViewController *)childController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName isLoadNavigation:(BOOL)isLoad;
         ```
         
-    - 添加子控制器，并为子控制器包装导航
-        
-        ```@param childController 子控制器的实例
- @param title title
- @param imageName 普通状态下图标icon的imageName
- @param selectedImageName 选中状态下图标icon的imageName
-    - (void)addChildViewController:(UIViewController *)childController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
+    - 添加子控制器，并为子控制器包装导航  
+    
+        ```
+         @param childController 子控制器的实例
+         @param title title
+         @param imageName 普通状态下图标icon的imageName
+         @param selectedImageName 选中状态下图标icon的imageName  
+         - (void)addChildViewController:(UIViewController *)childController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
         ```
 
 ###### KLNavigationController
