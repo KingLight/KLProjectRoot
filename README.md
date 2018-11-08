@@ -15,21 +15,21 @@
 
     - ``` isLoadCustemButton ```是否加载 中间的异形按钮，类似于微博早时候版本的发布微博按钮
     - ``` tabBarCustemButton ``` tabBar的异形按钮
-    - 遵循代理```KLTabBarControllerDelegate```
-
-    ```
-    - (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.isLoadCustemButton = YES;
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-        [button setImage:[UIImage imageNamed:@"cts_tabbar_add_selIcon"] forState:UIControlStateNormal];
-        self.tabBarCustemButton = button;
-    }
-    return self;
-} 
-    ```
+    - 遵循代理```KLTabBarControllerDelegate```  
+        
+        
+        ```
+            - (instancetype)init {
+                self = [super init];
+                if (self) {
+                    self.isLoadCustemButton = YES;
+                    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+                    [button setImage:[UIImage imageNamed:@"cts_tabbar_add_selIcon"] forState:UIControlStateNormal];
+                    self.tabBarCustemButton = button;
+                }
+                return self;
+            }
+        ```
     
 - 其他属性
     - ``` titleColor ```  
