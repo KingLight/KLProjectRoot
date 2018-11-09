@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KLProjectRoot"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "一个通用的项目组件，包含NavigationController和TabBarController"
 
   s.homepage     = "https://github.com/KingLight/KLProjectRoot.git"
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
         end
 
         ss.subspec 'NavigationTitleLabel' do |sss|
-            sss.dependency 'KLProjectRoot/Navigation/Config'
-            sss.source_files = 'KLProjectRoot/KLProjectRoot/Navigation/NavigationTitleLabel/*.{h,m}'
+           sss.dependency 'KLProjectRoot/Navigation/Config'
+           sss.source_files = 'KLProjectRoot/KLProjectRoot/Navigation/NavigationTitleLabel/*.{h,m}'
         end
 
     end

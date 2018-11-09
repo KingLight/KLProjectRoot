@@ -65,8 +65,8 @@
 		3C2F8C2521955C3B00A4E559 /* NavigationTitleLabel */ = {
 			isa = PBXGroup;
 			children = (
-				3C2F8C2621955C3B00A4E559 /* KLNavigationTitleLabel.m */,
 				3C2F8C2721955C3B00A4E559 /* KLNavigationTitleLabel.h */,
+				3C2F8C2621955C3B00A4E559 /* KLNavigationTitleLabel.m */,
 			);
 			path = NavigationTitleLabel;
 			sourceTree = "<group>";
